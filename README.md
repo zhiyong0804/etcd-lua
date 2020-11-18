@@ -25,9 +25,9 @@ sr   = require('systeminfo')
 
 etcd = require('etcd').new({
          hosts = {
-             "http://129.204.249.76:30104",
-             "http://129.204.249.76:30105",
-             "http://129.204.249.76:30106"
+             "http://ip1:port1",
+             "http://ip2:port2",
+             "http://ip3:port3"
          },
          prefix = "/v3alpha"
     })
